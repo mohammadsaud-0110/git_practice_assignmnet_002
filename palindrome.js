@@ -1,9 +1,9 @@
 let string = "racecar";
 let rev = "";
-for(let i=0;i<=string.length;i++){
-	rev=rev+string;
+for(let i=string.length-1;i>=0;i--){
+	rev=rev+string[i];
 }
-if(rev = string){
+if(rev == string){
 	console.log(string, "is a Palindrome");
 }
 else{
